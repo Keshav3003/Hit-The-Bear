@@ -13,7 +13,7 @@ function run() {
 
   const img = document.createElement('img');
   img.classList.add('mole');
-  img.src = 'assets/happy.png';
+  img.src = 'assets/Happy.png';
 
   img.addEventListener('click', () => {
     score += 10;
